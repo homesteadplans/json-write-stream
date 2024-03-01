@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'json_pure', '>= 2.0.0', '< 3.0.0'
 
   s.platform = Gem::Platform::RUBY
-  s.has_rdoc = true
 
   s.require_path = 'lib'
   s.files = Dir["{lib,spec}/**/*", "Gemfile", "History.txt", "README.md", "Rakefile", "json-write-stream.gemspec"]
